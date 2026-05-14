@@ -16,3 +16,14 @@ from azure.ai.contentunderstanding import ContentUnderstandingClient
 from azure.ai.contentunderstanding.models import AnalysisInput, AnalysisResult
 from azure.core.exceptions import AzureError
 from azure.identity import DefaultAzureCredential
+
+
+output from the service
+Choose a file (1, 2, or 3), or anything else to exit: 1
+Analyzing with project6_build_analyser analyzer...
+  File: images/image1.jpg
+
+Description:
+A giraffe standing in a grassy savanna landscape under a partly cloudy sky. The giraffe is facing left and is the main subject of the image. The background features dry grass and a dramatic sky with large white clouds.
+
+Tags:
